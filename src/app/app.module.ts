@@ -13,6 +13,9 @@ import { RepositoryViewComponent } from './repository-view/repository-view.compo
     ViewReposComponent,
     RepositoryViewComponent
   ],
+  //HttpClientModule configures the dependency injector for HttpClient with 
+  //supporting services for XSRF (Cross Site Request Forgery).
+  //Provider HttpClient; { provide: HttpHandler, useClass: HttpInterceptingHandler }
   imports: [
     BrowserModule,
     HttpClientModule
