@@ -25,9 +25,11 @@ This app uses the following Angular concepts: components, data & property bindin
 
 ## Technologies
 
-* [Angular CLI](https://github.com/angular/angular-cli) v7.0.6
+* [Angular v8.0.0](https://angular.io/)
 
-* [RxJS Library](https://angular.io/guide/rx-library) v6.3.3 used to handle datastreams and propagation of change using observables.
+* [Angular CLI v8.0.1](https://cli.angular.io/)
+
+* [RxJS Library v6.5.2](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
 
 * [Angular Augury Chrome Extension](https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd) v1.23.0 used for debugging.
 
