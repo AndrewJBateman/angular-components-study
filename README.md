@@ -1,10 +1,10 @@
-# Angular Tutorial App
+# :zap: Angular Tutorial App
 
-App to study differences between dumb (presentational and portable) components and smart components (that can have logic, trigger change detection and manage data/services).
+* App to study differences between dumb (presentational and portable) components and smart components (that can have logic, trigger change detection and manage data/services).
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
 * [General info](#general-info)
 * [Screenshots](#screenshots)
@@ -15,37 +15,30 @@ App to study differences between dumb (presentational and portable) components a
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
+## :books: General info
 
-This app uses the following Angular concepts: components, data & property binding etc.
+* This app uses the following Angular concepts: components, data & property binding etc.
 
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/list-angular-repos.png).
 
-## Technologies
+## :signal_strength: Technologies
 
 * [Angular v8.0.0](https://angular.io/)
-
 * [Angular CLI v8.0.1](https://cli.angular.io/)
-
 * [RxJS Library v6.5.2](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
-
 * [Angular Augury Chrome Extension](https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd) v1.23.0 used for debugging.
-
 * [Angular ChangeDetectionStrategy](https://angular.io/api/core/ChangeDetectionStrategy).
 
-## Setup
+## :floppy_disk: Setup
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Code Examples
+## :computer: Code Examples
 
 * _view-repos component that gets API repo data from github_
 
@@ -81,20 +74,19 @@ export class ViewReposComponent implements OnInit {
 
 ```
 
-## Features
+## :cool: Features
 
 * View list of Github repos using the keyword search 'angular in the url'.  
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
 * Status: simple working app.
-
 * To-Do: Document code and add functionality - such as a input field for url search item.
 
-## Inspiration
+## :clap: Inspiration
 
-[Youtube video by 'Demos with Angular': The Difference Between Smart and Dumb Components](https://www.youtube.com/watch?v=r9vhfsnOb9o)
+* [Youtube video by 'Demos with Angular': The Difference Between Smart and Dumb Components](https://www.youtube.com/watch?v=r9vhfsnOb9o)
 
-## Contact
+## :envelope: Contact
 
-Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
