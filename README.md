@@ -76,7 +76,6 @@ export class ViewReposComponent implements OnInit {
   ngOnInit() {
   }
 }
-
 ```
 
 ## :cool: Features
