@@ -1,7 +1,7 @@
 # :zap: Angular Tutorial App
 
 * App to study differences between dumb (presentational and portable) components and smart components (that can have logic, trigger change detection and manage data/services).
-* Tutorial code from [Demos With Angular](https://www.youtube.com/channel/UCYFd7Qy93YP7gPERnxP545A) but with updates due to updated Angular versions - see [:clap: Inspiration](#clap-inspiration) below
+* Tutorial code from [Digital Fluency](https://www.youtube.com/channel/UCYFd7Qy93YP7gPERnxP545A) but with updates due to updated Angular versions - see [:clap: Inspiration](#clap-inspiration) below
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-components-study?style=plastic)
@@ -34,8 +34,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v12](https://angular.io/)
-* [RxJS Library v6](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
+* [Angular v13](https://angular.io/)
+* [RxJS Library v7](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
 * [Angular Augury Chrome Extension](https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd) used for debugging.
 * [Angular ChangeDetectionStrategy](https://angular.io/api/core/ChangeDetectionStrategy).
 
@@ -89,7 +89,7 @@ export class ViewReposComponent implements OnInit {
 
 ## :clap: Inspiration
 
-* [Youtube video by 'Demos with Angular': The Difference Between Smart and Dumb Components](https://www.youtube.com/watch?v=r9vhfsnOb9o)
+* [Youtube video by 'Digital Fluency': The Difference Between Smart and Dumb Components](https://www.youtube.com/watch?v=r9vhfsnOb9o)
 
 ## :file_folder: License
 
