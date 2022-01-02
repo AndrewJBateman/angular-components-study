@@ -84,7 +84,7 @@ export class ViewReposComponent implements OnInit {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working. Updated may 2021
+* Status: Working.
 * To-Do: nothing
 
 ## :clap: Inspiration
